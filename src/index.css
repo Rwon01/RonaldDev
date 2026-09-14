@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: oklch(0.1 0.015 258);
+  --color-bg-base: oklch(0.15 0.015 258);
+  --color-bg-light: oklch(0.2 0.015 258);
+  --color-text: oklch(0.96 0.03 258);
+  --color-text-muted: oklch(0.76 0.03 258);
+  --color-highlight: oklch(0.5 0.03 258);
+  --color-border: oklch(0.4 0.03 258);
+  --color-border-muted: oklch(0.3 0.03 258);
+  --color-primary: oklch(0.76 0.1 258);
+  --color-secondary: oklch(0.76 0.1 78);
+  --color-danger: oklch(0.7 0.05 30);
+  --color-warning: oklch(0.7 0.05 100);
+  --color-success: oklch(0.7 0.05 160);
+  --color-info: oklch(0.7 0.05 260);
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
